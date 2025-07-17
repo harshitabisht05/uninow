@@ -97,3 +97,8 @@ Each intern will be assigned a specific folder. Submit your progress via Pull Re
 ## 📄 License
 All rights reserved by Sentienta QualityAI.
 This project is part of an internal research initiative. Do not redistribute without permission.
+
+## Next Project
+- GlobalEye AI
+- GlobalEye Drones
+  (Need to complete all 3 projects by 27/07)
