@@ -1,4 +1,4 @@
-# 🧠 Project Name: UniNow
+# 🧠 Project 1 Name: UniNow
 - Tech Stack: Next.js + Tailwind CSS
 - Goal: We are Building a Mock Frontend for UniNow similary to [StuKonnect](https://www.stukonnect.com/)
 
