@@ -1,14 +1,44 @@
-// components/HeroSection.jsx
+import Image from 'next/image';
+import Link from 'next/link';
+
 export default function HeroSection() {
   return (
-    <div className="text-center py-20 px-4">
-      <h1 className="text-5xl font-heading mb-6">Welcome to UniNow</h1>
-      <p className="text-lg mb-8 max-w-2xl font-body text-base mx-auto">
-        Empowering students with verified mentors, curated resources, and a path to career success.
+    <section className="bg-white dark:bg-black text-center px-4 py-20">
+      {/* Heading */}
+      <h1 className="text-4xl md:text-5xl font-heading leading-tight text-gray-900 dark:text-white">
+        Know what it <span className="text-purple-500">takes </span>from those <span className="text-purple-500">who’ve done it</span>{' '}
+      </h1>
+
+      {/* Subheading */}
+      <p className="font-body text-base mt-6 text-gray-600 dark:text-gray-300 text-lg max-w-xl mx-auto">
+        Your mentor has <span className="font-semibold text-black dark:text-white underline decoration-purple-400 decoration-5 underline-offset-2">been there,</span><br/>{' '}
+        <span className="underline decoration-purple-400 decoration-5 underline-offset-2">done that</span> —and now they’re here for you
       </p>
-      <button className="px-6 py-3 bg-purple-600 text-white font-semibold rounded-full hover:bg-purple-700 transition">
-        Get Started
-      </button>
-    </div>
+
+      {/* Feature Box */}
+      <div className="font-body text-base mt-10 bg-purple-100 dark:bg-gray-900 border rounded-xl shadow-lg p-6 max-w-md mx-auto text-left space-y-4">
+        <div className="flex items-center space-x-3">
+          <span>🚀</span>
+          <p className="text-gray-700 dark:text-gray-200">Follow a proven roadmap to top universities</p>
+        </div>
+        <div className="flex items-center space-x-3">
+          <span>🧑‍🏫</span>
+          <p className="text-gray-700 dark:text-gray-200">Learn directly from mentors who’ve made it</p>
+        </div>
+        <div className="flex items-center space-x-3">
+          <span>🎯</span>
+          <p className="text-gray-700 dark:text-gray-200">Stay focused with personalized support at every step</p>
+        </div>
+      </div>
+
+      {/* CTA Button */}
+      <div className="mt-8">
+        <Link href="/mentors">
+          <button className="font-heading bg-purple-700 text-white px-6 py-3 rounded-full hover:bg-purple-900 transition duration-300 shadow-md shadow-purple-300/60">
+            Find your Mentor 🚀
+          </button>
+        </Link>
+      </div>
+    </section>
   );
 }
