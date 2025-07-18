@@ -22,6 +22,7 @@ cd uninow
 
 # Install dependencies
 npm install
+npm install next-themes
 
 # Run the development server
 npm run dev
