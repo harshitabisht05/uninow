@@ -40,7 +40,7 @@ export default function Navbar() {
             Blogs
           </Link>
           <Link
-            href="/policy"
+            href="/legal"
             className="px-4 py-2 rounded-full transition hover:bg-gray-300 dark:hover:bg-gray-800"
           >
             Policy
