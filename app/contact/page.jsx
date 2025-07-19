@@ -1,9 +1,7 @@
 import ContactForm from '../components/ContactForm';
-import DarkModeToggle from '../components/DarkModeToggle';
 export default function ContactPage(){
     return(
         <div className="min-h-screen flex flex-col items-center p-8">
-            <DarkModeToggle/>
             <h1 className="text-3xl font-heading mb-4">Contact Us</h1>
             <p className="font-body text-base mb-6 text-center md:w-2/3">
                 Have Questions Or Feedback? Feel Free to Share
