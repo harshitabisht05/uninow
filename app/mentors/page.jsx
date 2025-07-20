@@ -8,7 +8,7 @@ const mentors = [
     image: 'https://randomuser.me/api/portraits/men/32.jpg',
     college: 'University of Toronto',
     badge: 'AI Research Intern',
-    logo: '/logos/toronto.png',
+    logo: '/toronto.png',
     linkedin: 'https://linkedin.com/in/',
   },
   {
@@ -16,7 +16,7 @@ const mentors = [
     image: 'https://randomuser.me/api/portraits/women/68.jpg',
     college: 'Stanford University',
     badge: 'Top 1% GRE',
-    logo: '/logos/stanford.png',
+    logo: '/stanford.png',
     linkedin: 'https://linkedin.com/in/',
   },
   {
@@ -24,7 +24,7 @@ const mentors = [
     image: 'https://randomuser.me/api/portraits/men/45.jpg',
     college: 'ETH Zurich',
     badge: 'Full Ride Scholar',
-    logo: '/logos/eth.png',
+    logo: '/eth.png',
     linkedin: 'https://linkedin.com/in/',
   },
   {
@@ -32,7 +32,7 @@ const mentors = [
     image: 'https://randomuser.me/api/portraits/women/44.jpg',
     college: 'Harvard University',
     badge: 'Ex-BCG Intern',
-    logo: '/logos/harvard.png',
+    logo: '/harvard.png',
     linkedin: 'https://linkedin.com/in/'
   },
   {
@@ -40,7 +40,7 @@ const mentors = [
     image: 'https://randomuser.me/api/portraits/men/38.jpg',
     college: 'Georgia Tech',
     badge: 'AI Safety Fellow',
-    logo: '/logos/gatech.png',
+    logo: '/gatech.png',
     linkedin: 'https://linkedin.com/in/'
   },
 ];
