@@ -19,6 +19,7 @@ export default function ContactForm() {
       className="w-full max-w-lg p-6 rounded-xl shadow-md transition-colors
                  bg-purple-900/20 text-black border
                  dark:bg-gray-500/10 dark:text-white dark:border-gray-700"
+
     >
       {['name', 'email', 'message'].map(field => (
         <label key={field} className="block mb-4">
@@ -31,7 +32,7 @@ export default function ContactForm() {
               placeholder={`Your ${field}`}
               required
               className="font-heading mt-1 w-full p-2 border rounded transition-colors
-                         border-gray-300 bg-gray-50 text-black placeholder-gray-500
+                        border-gray-300 bg-gray-50 text-black placeholder-gray-500
                          dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
               rows={4}
             />
