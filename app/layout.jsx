@@ -1,6 +1,7 @@
 import './globals.css';
 import Providers from './components/ThemeProvider';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'UniNow',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>

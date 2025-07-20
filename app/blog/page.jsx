@@ -6,7 +6,7 @@ const blogPosts=[
 export default function BlogPage(){
     return(
         <div className="min-h-screen p-8">
-            <h1 className="font-heading text-3xl mb-6 text-center">Our Blog & Resources</h1>
+            <h1 className="font-heading text-black dark:text-white text-3xl mb-6 text-center">Our Blog & Resources</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {blogPosts.map((post,i)=>(
                     <BlogCard key={i} {...post}/>
