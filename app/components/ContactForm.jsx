@@ -18,7 +18,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="w-full max-w-lg p-6 rounded-xl shadow-md transition-colors
                  bg-purple-900/20 text-black border
-                 dark:bg-purple-500/10 dark:text-white dark:border-gray-700"
+                 dark:bg-gray-500/10 dark:text-white dark:border-gray-700"
     >
       {['name', 'email', 'message'].map(field => (
         <label key={field} className="block mb-4">
